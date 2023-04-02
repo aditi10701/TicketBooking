@@ -10,7 +10,6 @@ router.post("/make-payment", authMiddleware, async (req, res) => {
     const { token, amount } = req.body;
 
     const customer = await stripe.customers.create({
-
       email: token.email,
       source: token.id,
     });

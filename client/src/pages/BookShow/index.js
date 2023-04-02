@@ -172,7 +172,7 @@ function BookShow() {
               token={onToken}
               amount={selectedSeats.length * show.ticketPrice * 100}
               billingAddress
-              stripeKey="pk_test_51L9YLcSCk35aOs73jEzJme6EZUewAEnX0nkKbnyAxw2hOhjhxXXu2XjoTCTWwfaGNvTD7Yf0wEUBWZn5rakiGEDg007wdKYkBk"
+              stripeKey="pk_test_51MsAw4AqCKEhbDp88b3bz5c6lJl2suLjgm1iKFKxZrfBfvooYbnaNWTc2dT7wD9Dc5MIGllmSz8QvPhup7DR0pfL00tRL1HZrO"
             >
               <Button title="Book Now" />
             </StripeCheckout>
